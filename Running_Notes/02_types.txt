@@ -1,0 +1,40 @@
+Special types --> Any and Unknown
+
+type called any 
+
+let class: any 
+
+
+Union type
+
+let rank: string|number
+
+
+Arrays --> String and Number
+arrays can be defined with data types 
+
+readonly type 
+readonly is to ensure an object defined once and never updated 
+
+Tuples  --> array type with predefined length and types of each index
+
+let person:[string, number, string] 
+
+Object with Type 
+
+let car = {
+type: "MG"
+model: "Astor"
+year: 2023
+}
+
+
+let car: {type: string, model: string, year: number} = {
+type: "MG
+model: "Astor"
+year: 2023
+}
+
+
+
+

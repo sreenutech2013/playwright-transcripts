@@ -1,0 +1,12 @@
+
+Alias/Custom Types - define a type(custom data type) and make use of it in your project
+let name: string 
+
+Interfaces
+
+
+
+
+Funtions 
+casting
+classes

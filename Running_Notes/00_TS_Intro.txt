@@ -1,0 +1,57 @@
+"Given two strings (of lowercase letters), a pattern and a string. The task is to sort string according to the order defined by pattern and return the reverse of it. It may be assumed that pattern has all characters of the string and all characters in pattern appear only once.
+
+Input : pat = ""mgewqnasibkldjxruohypzcftv"", str = ""niocgd""
+
+Output : str = ""coding"""
+
+Create a Javascript code snippet demonstrating inheritance between a parent class representing a vehicle and a child class representing a specific type of vehicle (e.g., car, bike). Include methods shared by both and unique methods for the child class.
+
+
+export class vehicle {
+
+
+color(col:String){
+
+console.log(col)
+
+}
+
+}
+
+//import {vehicle} from './vehicle'
+
+export class bike extends vehicle{
+
+bikeModel(ver:string){
+
+console.log("Modle will something with " +ver)
+}
+
+
+}
+
+
+class car extends vehicle{
+
+carModel(ver:string){
+
+this.color('Blue')
+
+console.log("Modle will something with " +ver)
+}
+
+
+}
+
+
+
+
+multiple tabs:- 
+
+conext = new conext().newpage()
+
+page =conext.newpage()
+
+page2 =conext.newpage()
+
+

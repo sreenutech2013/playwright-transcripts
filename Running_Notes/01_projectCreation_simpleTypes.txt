@@ -1,0 +1,36 @@
+
+Create Project :- 
+npm init js-project
+npm install typescript --save-dev
+npx tsc --init
+
+
+Simple types 
+JS --> number , string and boolean
+
+Type Assignment 
+explicit 
+
+let firstName: string = "Kumar"
+
+let num: number = 19
+
+let isExists: boolean = true/false
+
+implicit
+
+let firstname = "someName"
+
+
+
+
+
+
+
+
+
+
+
+https://www.geeksforgeeks.org/practice-javascript-online/?ref=shm
+
+https://www.geeksforgeeks.org/typescript-exercise/	
