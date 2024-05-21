@@ -1,0 +1,59 @@
+
+Class in Typescript 
+types 
+access modifiers --> 
+public --> default
+private --> with in the class can only access these 
+protected --> 
+
+inheritance --> 
+parent class 
+
+class parent{
+
+public fun1(){
+
+return name;
+
+}
+
+public fun2(){
+
+}
+}
+
+
+class child extends parent {
+
+public fun3{
+let name= this.fun1();
+console.log("this is the name :" + name);
+}
+
+}
+
+
+
+
+export class mg{
+
+internetinside(){
+
+}
+
+aiInside(){
+
+}
+
+}
+
+
+export class astor extends mg{
+
+
+}
+
+let carModel = new astor()
+
+carModel.aiInside();
+
